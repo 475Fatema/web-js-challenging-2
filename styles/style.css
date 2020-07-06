@@ -1,0 +1,11 @@
+.nav,li{
+    list-style-type:none;
+   display: inline-block;
+}
+
+li{
+    list-style-type:none;
+}
+.nav{
+    background-color:#696969 ;
+}
