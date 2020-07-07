@@ -1,11 +1,100 @@
-.nav,li{
+/* .nav,li{
     list-style-type:none;
-   display: inline-block;
+   display: inline-block; */
+   .main{
+       background-image: url("../images/galaxy_color.jpg");
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       border-radius: 30%;
+  
+   }
+   html,a{
+       text-decoration: none;
+       list-style-type: none;
+     
+   }
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
-li{
-    list-style-type:none;
-}
 .nav{
-    background-color:#696969 ;
+    /* background-color:#696969 ; */
+    justify-self: auto;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+         }
+    
+ li{
+    list-style-type:none;
+    display: inline-block;
+    color: white;
+  }    
+.btn2.btn3{
+    background-color:100px aliceblue;
+    margin: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;       
+        }
+    .fan{
+        background-attachment: fixed;
+        background-color: rgba(233, 190, 222, 0.568);
+        border-radius:0.10%;
+        background-size: 10%;
+        mix-blend-mode: screen;
+    
+    }
+        .M2{
+            background-color: wheat;
+            background-size:cover ;
+            background-attachment: fixed;
+        }
+.carousel-caption{
+         background-color: rgba(156, 114, 142, 0.61);
+        }
+
+
+.submenu,li,a{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+
 }
+
+.nav.menu {
+    position: relative;
+}
+
+.menu.submenu.li{
+    position: absolute;
+    top :42px;
+    left: 0;
+    width: fit-content;
+    background-color: #fff;
+    padding: 10px;
+    flex-direction: columns;
+
+}
+
+.nav a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .main_container{
+      display: inline;
+  }
